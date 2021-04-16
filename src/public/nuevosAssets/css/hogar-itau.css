@@ -1,0 +1,52 @@
+
+.color-1 {
+	color: #ec7000!important;
+}
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 30px;
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+    border-radius: 30px;
+}
+
+ .wrapper {
+	border-top: 5px solid #ec7000;
+	border-bottom: 3px solid #ec7000;
+}
+header .brand {
+	width: 193px;
+	height: 80px;
+}
+
+.promo-itau {
+	 background-color: #ec7000;
+}
+.promo-itau h3 {
+	font-family: 'Light'; font-size: 20px; color: #ffffff
+}
+
+header .btn-group .btn.btn-ghost-g.active, section .btn-group .btn.btn-ghost-g.active, aside .btn-group .btn.btn-ghost-g.active, footer .btn-group .btn.btn-ghost-g.active {
+    background-color: #ec7000 !important;
+	border: 2px solid #ec7000 !important;
+}
+
+
+@media (max-width: 767px) {
+ Header .brand {
+	height: 60px;
+}
+	footer #footer-copy .logo-footer {
+    height: 55px;
+}
+	.promo-itau h3 {
+	font-size: 16px;
+}
+	.promo-itau .pd-full-xlg {
+		padding: 35px !important;
+	}
+  }
+
+
+
+

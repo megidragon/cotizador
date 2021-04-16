@@ -1,0 +1,15 @@
+
+.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-radius: 30px;
+}
+
+.btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+    border-radius: 30px;
+}
+.g-recaptcha {
+  	display: inline-block;
+}
+
+.captcha {
+	text-align: center;
+}

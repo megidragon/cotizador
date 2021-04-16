@@ -1,0 +1,134 @@
+.list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background: url('../images/icon_check_red.svg') left top 15px no-repeat;
+  background-size: 24px;
+  margin-right: -4px;
+  padding: 20px;
+  padding-left: 34px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.list50 li {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  background: url('../images/icon_check_red.svg') left top 15px no-repeat;
+  background-size: 24px;
+  margin-right: -4px;
+  padding: 20px;
+  padding-left: 34px;
+  border-bottom: 1px solid #d6d6d6;
+}
+section#cotizador .icon {
+  display: block;
+  color: #d93a3e;
+  padding: 0;
+  margin:0 0 10px 0;
+  height:40px;
+  background-size: 40px !important;
+}
+section#cotizador .icon.icon4 {
+  background: url('../images/subnav_icon4.svg') center no-repeat;
+}
+section#cotizador .icon.icon5 {
+  background: url('../images/icon_phone.svg') center no-repeat;
+}
+section#cotizador .icon.icon6 {
+  background: url('../images/icon_desktop.svg') center no-repeat;
+}
+
+.red {
+	color: #d93a3e;
+}
+
+/* SOLUCION BUG PORGRESS BAR TRIPI */
+.progress {
+    display: block;
+    height: 1.5rem;
+	border-radius: 0;
+}
+
+header hr.hr-tbl,
+section hr.hr-tbl,
+aside hr.hr-tbl,
+footer hr.hr-tbl {
+	border:none;
+   border-bottom:1px solid #d6d6d6;
+   margin:7.5px 0;
+}
+
+.Text-Big {
+    font-weight: normal;
+    color: #5b5b5b !important;
+    font-size: 1.2em;
+}
+
+
+
+
+header .tooltip-slider,
+section .tooltip-slider,
+aside .tooltip-slider,
+footer .tooltip-slider {
+  margin-top: -10px !important;
+  opacity: 1 !important;
+  font-size: 0.75rem !important;
+}
+header .tooltip-slider .tooltip-slider-arrow,
+section .tooltip-slider .tooltip-slider-arrow,
+aside .tooltip-slider .tooltip-slider-arrow,
+footer .tooltip-slider .tooltip-slider-arrow {
+  border-top-color: #000000 !important;
+}
+header .tooltip-slider .tooltip-slider-inner,
+section .tooltip-slider .tooltip-slider-inner,
+aside .tooltip-slider .tooltip-slider-inner,
+footer .tooltip-slider .tooltip-slider-inner {
+  padding: 10px 15px !important;
+  display: block;
+  border-radius: 0;
+  background-color: #d93a3e;
+}
+
+
+
+
+.toggle-inmueble .btn-group, .btn-group-vertical {
+    width: 100%;
+}
+
+.toggle-inmueble .btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    width: 50%;
+}
+
+.toggle-inmueble .btn-group>.btn:last-child:not(:first-child), .btn-group>.dropdown-toggle:not(:first-child) {
+    width: 50%;
+}
+
+.btn-toggle {
+	color: #555;
+	background-color: #ffffff;
+	border-color: #2e6da4
+}
+.btn-toggle:hover, .open>.dropdown-toggle.btn-toggle {
+	background-color: #f3f3f5;
+	border-color: #d6d6d6
+}
+.btn-toggle.active, .btn-toggle.focus, .btn-toggle:active, .btn-toggle:focus {
+	color: #fff;
+	background-color: #337ab7;
+	border-color: #d6d6d6
+}
+.btn-toggle.active, .btn-toggle:active, .open>.dropdown-toggle.btn-toggle {
+	background-image: none
+}
+.btn-toggle.disabled, .btn-toggle.disabled.active, .btn-toggle.disabled.focus, .btn-toggle.disabled:active, .btn-toggle.disabled:focus, .btn-toggle.disabled:hover, .btn-toggle[disabled], .btn-toggle[disabled].active, .btn-toggle[disabled].focus, .btn-toggle[disabled]:active, .btn-toggle[disabled]:focus, .btn-toggle[disabled]:hover, fieldset[disabled] .btn-toggle, fieldset[disabled] .btn-toggle.active, fieldset[disabled] .btn-toggle.focus, fieldset[disabled] .btn-toggle:active, fieldset[disabled] .btn-toggle:focus, fieldset[disabled] .btn-toggle:hover {
+	background-color: #337ab7;
+	border-color: #2e6da4
+}
+.btn-toggle .badge {
+	color: #337ab7;
+	background-color: #fff
+}
+

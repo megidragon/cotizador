@@ -1,0 +1,142 @@
+@screen-xs-min: 480px;
+@screen-sm-min: 767px;
+@screen-md-min: 992px;
+@screen-lg-min: 1200px;
+
+@media (max-width: @screen-sm-min) {
+
+	.title-lg { font-size: 24px !important; }
+	.title-md { font-size: 18px !important; }
+
+	.no-bd-l-xs { border-left: 0 !important; }
+
+	.text-center-xs { text-align: center !important; }
+
+	.btn-goto-back .caption { opacity: 0 !important; }
+
+	header, section, aside, footer {
+
+		.tooltip { display: none !important; }
+
+		.table-responsive {
+			.table.mw-500 { min-width: 500px; }
+			.table.mw-1000 { min-width: 1000px; }
+		}
+
+		.list-checked,
+		.list-arrow {
+			li {
+				width: 100% !important;
+				display: block; 
+				margin-right: 0;
+			}
+		}
+
+	}
+	
+	section#login {
+		#hero {
+			height: auto;
+			background: @grayFading;
+			.hero-caption {
+				position: relative;
+				width: 100%;
+				top: 0;
+				.translateY(0);
+				.pd-full-lg { padding: @gap*2 @gap; }
+			}
+		}
+	}
+
+	section#home {
+		#accordion {
+			.panel {
+				.panel-body {
+					.panel-body-header { display: none; }
+					.item {
+						.item-title {
+							margin-bottom: @gap;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	footer {
+		.logo-generali {
+			width: 100%;
+		}
+	}
+
+}
+
+@media (max-width: @screen-md-min) {
+
+	.mg-b-xs { margin-bottom: @gap !important; }
+	.mg-lg-b-xs { margin-bottom: @gap*2 !important; }
+	.mg-sm-b-xs { margin-bottom: @gap/2 !important; }
+
+	.mg-t-xs { margin-top: @gap !important; }
+	.mg-lg-t-xs { margin-top: @gap*2 !important; }
+	.mg-sm-t-xs { margin-top: @gap/2 !important; }
+
+	.pd-v-xlg { padding: @gap*2 0; }
+	.pd-h-xlg { padding: 0 @gap*2; }
+	.pd-xlg-t { padding-top: @gap*2; }
+	.pd-xlg-b { padding-bottom: @gap*2; }
+	.mg-xlg-t { margin-top: @gap*2; }
+	.mg-xlg-b { margin-bottom: @gap*2; }
+
+	.pd-v-xlg {  }
+
+	#steps {
+		margin-bottom: 0 !important;
+		li {
+			display: none !important;
+			&.active { 
+				width: 100% !important;
+				display: block !important; 
+			}
+		}
+	}
+	
+}
+
+/* ------------------------------------------------------------------------------------
+NAV:
+------------------------------------------------------------------------------------ */
+
+@media (max-width: 1000px) {
+
+	.wrapper { padding-top: 74px; }
+
+	header {
+		padding: @gap/2 0;
+		.brand { .square(58px); }
+		.link-phone {
+			height: 58px;
+			.icon {
+				height: 58px !important;
+			}
+		}
+		#nav-main {
+			padding: 10px 0;
+			li {
+				a {
+					.caption { display: none; }
+				}
+				&.dropdown {
+					position: static;
+					.dropdown-menu {
+						width: 100%;
+						left: 0;
+						.translateX(0);
+						margin-top: 0;
+						&:before, &:after { display: none; }
+					}
+				}
+			}
+		}
+	}
+}

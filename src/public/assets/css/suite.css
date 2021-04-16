@@ -1,0 +1,148 @@
+header {
+	background: none;
+	background-color: #ffffff;
+}
+
+
+
+header .list-checked.list-inline.list-has-2-items li,
+section .list-checked.list-inline.list-has-2-items li,
+aside .list-checked.list-inline.list-has-2-items li,
+footer .list-checked.list-inline.list-has-2-items li,
+header .list-arrow.list-inline.list-has-2-items li,
+section .list-arrow.list-inline.list-has-2-items li,
+aside .list-arrow.list-inline.list-has-2-items li,
+footer .list-arrow.list-inline.list-has-2-items li {
+  width:50%;
+}
+
+.list-inline {
+    padding-left: 0;
+    margin-left: 1px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 10px;
+}
+
+
+header .header-section .caption {
+  font-family: 'Medium';
+  font-size: 14px;
+  color: #660099;
+}
+
+header .btn.btn-ghost-g,
+section .btn.btn-ghost-g,
+aside .btn.btn-ghost-g,
+footer .btn.btn-ghost-g {
+	padding: 5.5px 15px; 
+}
+
+
+header .brand {
+  width: 240px;
+  height: 90px;
+  background: url('../images/logoNuevo.png') left center no-repeat;
+}
+
+body.header-small header .brand, body.header-small header .link-phone .icon {
+    height: 50px;
+    margin-top: 5px;
+}
+
+body.header-small header #nav-main .dropdown .dropdown-menu {
+    margin-top: 0px!important;
+}
+
+
+.fa-lg {
+    vertical-align: -1px;
+}
+
+
+footer .logo-foot {
+    display: block;
+    width: 93px;
+    height: 51px;
+    background: url(../images/vivo/logo-foot.svg) center center no-repeat;
+    background-size: contain;
+    margin-top: 15px;
+}
+
+
+header .btn.btn-c3, section .btn.btn-c3, aside .btn.btn-c3, footer .btn.btn-c3 {
+    background-color: #99cc33;
+}
+header .btn.btn-c3:hover,
+section .btn.btn-c3:hover,
+aside .btn.btn-c3:hover,
+footer .btn.btn-c3:hover {
+  background-color: #4d9b5c;
+}
+
+
+header .link-phone span {
+    font-family: 'Light';
+    font-size: 26px;
+}
+
+header .link-phone span.icon {
+    margin-right: 7px;
+}
+
+footer .logo-foot {
+    width: 250px;
+    height: 51px;
+}
+
+
+/*
+------------------------------------------------------------------------------------
+RESPONSIVE:
+------------------------------------------------------------------------------------
+*/
+
+
+@media (max-width: 767px) {
+
+header .brand {
+    width: 144px;
+    height: 60px;
+}
+	
+	}
+	
+	
+.g-recaptcha {
+  	display: inline-block;
+}
+
+.captcha {
+	text-align: center;
+}	
+
+
+/* btn facebook */
+
+header .btn.btn-facebook, section .btn.btn-facebook, aside .btn.btn-facebook, footer .btn.btn-facebook {
+background-color: #3b5998;
+}
+header .btn.btn-facebook:hover,
+section .btn.btn-facebook:hover,
+aside .btn.btn-facebook:hover,
+footer .btn.btn-facebook:hover {
+background-color: #304b83;
+}
+
+/* btn google */
+
+header .btn.btn-google, section .btn.btn-google, aside .btn.btn-google, footer .btn.btn-google {
+background-color: #d34836;
+}
+header .btn.btn-google:hover,
+section .btn.btn-google:hover,
+aside .btn.btn-google:hover,
+footer .btn.btn-google:hover {
+background-color: #b33d2b;
+}

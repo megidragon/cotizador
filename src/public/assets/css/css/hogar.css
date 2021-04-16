@@ -1,0 +1,295 @@
+.list li {
+  display: inline-block;
+  vertical-align: top;
+  width: 100%;
+  background: url('../images/icon_check_red.svg') left top 15px no-repeat;
+  background-size: 24px;
+  margin-right: -4px;
+  padding: 20px;
+  padding-left: 34px;
+  border-bottom: 1px solid #d6d6d6;
+}
+.list50 li {
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  background: url('../images/icon_check_red.svg') left top 15px no-repeat;
+  background-size: 24px;
+  margin-right: -4px;
+  padding: 20px;
+  padding-left: 34px;
+  border-bottom: 1px solid #d6d6d6;
+}
+section#cotizador .icon {
+  display: block;
+  color: #d93a3e;
+  padding: 0;
+  margin:0 0 10px 0;
+  height:40px;
+  background-size: 40px !important;
+}
+section#cotizador .icon.icon4 {
+  background: url('../images/subnav_icon4.svg') center no-repeat;
+}
+section#cotizador .icon.icon5 {
+  background: url('../images/icon_phone.svg') center no-repeat;
+}
+section#cotizador .icon.icon6 {
+  background: url('../images/icon_desktop.svg') center no-repeat;
+}
+
+.red {
+	color: #d93a3e;
+}
+
+/* SOLUCION BUG PORGRESS BAR TRIPI */
+.progress {
+    display: block;
+    height: 1.5rem;
+	border-radius: 0;
+}
+header .font-5,
+section .font-5,
+aside .font-5,
+footer .font-5 {
+	font-size: 1.5em;
+	line-height: 1.5em;
+  font-family: 'Medium';
+}
+
+/* ------------------------------------------------------------------------------------
+OTROS AJUSTES
+------------------------------------------------------------------------------------ */
+
+
+.cobertura {
+	margin-top: 15px;
+}
+
+.ok input {
+    border: 2px solid #d6d6d6;
+}
+.ok select {
+    border: 2px solid #d6d6d6;
+	color: #848484;
+}
+.ok input::placeholder {
+  color: #848484;
+}
+.ok input:focus {
+    border-color: #215096;
+    color: #848484;
+}
+.ok :focus::-webkit-input-placeholder {
+	/*color: #848484; */
+}
+
+.btn-medium {
+    padding: 2.5px 15px !important;
+}
+
+.btn-ghost-g .caption {
+    position: relative;
+    top: -5px;
+    margin-left: 10px;
+}
+
+
+
+
+/* 
+
+DIFERENCIAS MAIN.CSS LEO
+
+*/
+
+header .prod-item .block-icon .icon, section .prod-item .block-icon .icon, aside .prod-item .block-icon .icon, footer .prod-item .block-icon .icon {
+    width: 70px;
+    height: 70px;
+}
+
+header .prod-item .block-icon, section .prod-item .block-icon, aside .prod-item .block-icon, footer .prod-item .block-icon {
+    padding-left: 85px; 
+	min-height: inherit;
+    /* sacar min-height: 70px; */
+}
+
+header .prod-item .btn-viewmore:after,
+section .prod-item .btn-viewmore:after,
+aside .prod-item .btn-viewmore:after,
+footer .prod-item .btn-viewmore:after,
+header .prod-item .btn-viewmore:before,
+section .prod-item .btn-viewmore:before,
+aside .prod-item .btn-viewmore:before,
+footer .prod-item .btn-viewmore:before {
+  width: 40px;
+}
+
+
+footer .logo-generali {
+    /* sacar width: 186px; */
+}
+
+/*
+------------------------------------------------------------------------------------
+RESPONSIVE:
+------------------------------------------------------------------------------------
+*/
+@media (max-width: 767px) {
+.title-lg {
+    font-size: 24px !important;
+  }
+
+		.cobertura {
+	margin-top: 0px !important;
+}
+	header .brand {
+    width: 60px;
+    height: 60px;
+}
+	.wrapper {
+    padding-top: 90px;
+}
+	header .link-phone span.icon {
+    width: 35px;
+    height: 65px;
+    margin-right: 0px;
+}
+	header .link-phone {
+    height: 40px;
+}
+	#prod-master-fixed {
+  top: 75px;
+}
+  .title-md {
+    font-size: 18px !important;
+  }
+	  #subnav1 a.icon {
+    padding-top: 40px !important;
+    padding-left: 0 !important;
+    background-size: 30px !important;
+    background-position: top center !important;
+    text-align: center !important;
+	  font-size: 12px;
+	  font-weight: bold;
+  }
+	.fh1-ref {
+		margin-top: 40px;
+	}
+	
+	.cobertura {
+	margin-top: 0px;
+		text-align: center
+}
+	.btn-viewmore {
+		font-size: 12px !important;
+	}
+	
+}
+
+
+@media (max-width: 992px) {
+		header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  padding: 15px 0;
+  background-image: none;
+  background-color: #f9f9fa;
+}
+	#steps li {
+    display: none !important;
+}
+	#steps li.active {
+    width: 100% !important;
+    display: block !important;
+}
+	
+.total-cuota .font-3 {
+		font-size: 24px;
+		line-height: 1em;
+}
+
+}
+
+
+/* xGA iPad */
+@media screen and (max-width:1024px) {
+		header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  padding: 15px 0;
+  background-image: none;
+  background-color: #f9f9fa;
+}
+		.total-cuota.font-3 {
+		font-size: 32px;
+		line-height: 1em;
+}
+	}
+
+
+
+/* 
+
+20171110
+
+*/
+
+
+
+header .bg.bg-gl3,
+section .bg.bg-gl3,
+aside .bg.bg-gl3,
+footer .bg.bg-gl3 {
+  background-color: #f7f7f7;
+}
+
+header .modal-detalle .modal-header .close, section .modal-detalle .modal-header .close, aside .modal-detalle .modal-header .close, footer .modal-detalle .modal-header .close {
+    font-size: 30px;
+    margin-top: -15px;
+    margin-right: -10px;
+}
+
+
+
+header select, section select, aside select, footer select, header select.form-control, section select.form-control, aside select.form-control, footer select.form-control {
+    background-color: #ffffff !important;
+}
+
+
+.title-p1 {
+	font-size: 1rem;
+	color: #5b5b5b;
+}
+.btn-p1 {
+	font-size: 1rem !important;
+}
+
+
+
+article hr {
+    margin-top: 5px !important;
+    margin-bottom: 20px !important;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+
+article dl {
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+article dl dt {
+    width: 200px;
+    font-family: 'Medium';
+    font-weight: normal;
+    text-align: right;
+    color: #222222;
+    white-space: normal;
+    text-overflow: unset;
+}
+
+
